@@ -1,0 +1,20 @@
+{
+    "word_id": "thanks",
+    "word_name": "谢谢",
+    "take_id": "take_002",
+    "created_at": "2026-11-15T07:38:41.6028449Z",
+    "frame_count": 193,
+    "hand_frame_count": 108,
+    "empty_hand_frame_count": 85,
+    "duration_ms": 6384,
+    "first_timestamp": 2283,
+    "last_timestamp": 8667,
+    "source": "user_practice",
+    "source_reference": "",
+    "verification_status": "user_practice",
+    "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+    "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+    "quality_warnings": [
+        "部分 x/y 在 0–1 之外，原值保留；请检查是否出画"
+    ]
+}

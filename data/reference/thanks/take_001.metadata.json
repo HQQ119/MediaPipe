@@ -1,0 +1,21 @@
+{
+    "word_id": "thanks",
+    "word_name": "谢谢",
+    "take_id": "take_001",
+    "created_at": "2026-11-15T02:16:23.7435806Z",
+    "frame_count": 367,
+    "hand_frame_count": 46,
+    "empty_hand_frame_count": 321,
+    "duration_ms": 12159,
+    "first_timestamp": 592,
+    "last_timestamp": 12751,
+    "source": "user_practice",
+    "source_reference": "",
+    "verification_status": "user_practice",
+    "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+    "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+    "quality_warnings": [
+        "超过一半帧没有检测到手",
+        "部分 x/y 在 0–1 之外，原值保留；请检查是否出画"
+    ]
+}

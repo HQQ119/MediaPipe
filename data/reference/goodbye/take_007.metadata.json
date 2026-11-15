@@ -1,0 +1,22 @@
+{
+    "word_id": "goodbye",
+    "word_name": "再见",
+    "take_id": "take_007",
+    "created_at": "2026-11-15T07:58:02.4103320Z",
+    "frame_count": 124,
+    "hand_frame_count": 54,
+    "empty_hand_frame_count": 70,
+    "duration_ms": 4080,
+    "first_timestamp": 2083,
+    "last_timestamp": 6163,
+    "source": "user_practice",
+    "source_reference": "",
+    "verification_status": "user_practice",
+    "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+    "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+    "quality_warnings": [
+        "超过一半帧没有检测到手",
+        "部分 x/y 在 0–1 之外，原值保留；请检查是否出画",
+        "有双手同标签帧；保留模型原标签，请人工核对"
+    ]
+}
