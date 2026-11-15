@@ -1,0 +1,5 @@
+# MediaPipe 自带依赖 opencv-contrib-python，它包含完整 OpenCV GUI。
+# 不要再安装另一个 opencv-python/headless，以免覆盖同一个 cv2 模块。
+mediapipe==1.2.2
+opencv-contrib-python==5.0.0.93
+numpy==2.5.4

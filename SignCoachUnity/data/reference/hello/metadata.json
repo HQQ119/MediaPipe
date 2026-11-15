@@ -1,0 +1,65 @@
+{
+    "word_id": "hello",
+    "word_name": "你好",
+    "take_id": "take_002",
+    "created_at": "2026-11-09T12:43:46.7375809Z",
+    "frame_count": 673,
+    "hand_frame_count": 603,
+    "empty_hand_frame_count": 70,
+    "duration_ms": 22336,
+    "first_timestamp": 220180,
+    "last_timestamp": 242516,
+    "source": "live_camera_unverified",
+    "source_reference": "",
+    "verification_status": "unverified_test",
+    "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+    "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+    "quality_warnings": [
+        "部分 x/y 在 0–1 之外，原值保留；请检查是否出画",
+        "有双手同标签帧；保留模型原标签，请人工核对"
+    ],
+    "takes": [
+        {
+            "word_id": "hello",
+            "word_name": "你好",
+            "take_id": "take_001",
+            "created_at": "2026-11-09T12:42:47.5055066Z",
+            "frame_count": 551,
+            "hand_frame_count": 551,
+            "empty_hand_frame_count": 0,
+            "duration_ms": 25103,
+            "first_timestamp": 160934,
+            "last_timestamp": 186037,
+            "source": "live_camera_unverified",
+            "source_reference": "",
+            "verification_status": "unverified_test",
+            "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+            "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+            "quality_warnings": [
+                "部分 x/y 在 0–1 之外，原值保留；请检查是否出画",
+                "有双手同标签帧；保留模型原标签，请人工核对"
+            ]
+        },
+        {
+            "word_id": "hello",
+            "word_name": "你好",
+            "take_id": "take_002",
+            "created_at": "2026-11-09T12:43:46.7375809Z",
+            "frame_count": 673,
+            "hand_frame_count": 603,
+            "empty_hand_frame_count": 70,
+            "duration_ms": 22336,
+            "first_timestamp": 220180,
+            "last_timestamp": 242516,
+            "source": "live_camera_unverified",
+            "source_reference": "",
+            "verification_status": "unverified_test",
+            "coordinate_system": "raw_unmirrored_normalized_image_xy; y_down; mediapipe_relative_z; original_session_timestamp_ms",
+            "handedness_convention": "model_output_unchanged; no_position_guessing; no_smoothing",
+            "quality_warnings": [
+                "部分 x/y 在 0–1 之外，原值保留；请检查是否出画",
+                "有双手同标签帧；保留模型原标签，请人工核对"
+            ]
+        }
+    ]
+}

@@ -1,14 +1,45 @@
-# SignCoach Lite · 入门练习 / 精细对照 v2.1
+# SignCoach Lite
 
-双击 本目录SignCoachLite.exe，进入摄像头练习时自动后台启动视觉服务，无需命令行。只保存动作JSONL，不保存摄像头视频；已有录制保留。
+Unity + Python/MediaPipe 的中文手语动作学习与几何对照程序。
+本仓库保存开发源码。Windows免安装运行包：[下载页面](https://github.com/HQQ119/MediaPipe/releases/tag/v0.5.2)。下载 `SignCoachLite-Windows-v2.1.zip`，完整解压后运行 `Windows/SignCoachLite.exe`，无需安装Unity或Python。
 
-选择词汇 → 摄像头练习 → 开始记录 → 停止 → 保存动作数据 → 比较刚保存的动作。
-比较页默认“入门练习”，也可选择“精细对照”，修改档位后重新开始比较。两档使用相同的DTW对齐和原始距离，入门档对小偏差更宽容；计算方法在结果页可查看。
+**不要只下载exe，也不要将源码的Download ZIP当成Windows运行包。** 运行包包含Vision、UnityPlayer.dll及SignCoachLite_Data等完整依赖。
 
-实际Release读取最近goodbye/take_005：精细52.1，入门75.8，原始距离、对齐路径及质量统计一致。此前take_003精细53.8/入门76.3，take_004精细52.3/入门77.2。这是工程评分尺度，不是手语正确率，也没有证明这些动作对错。
+## 项目内容
 
-参考片段自身含缺失，界面继续提示参考质量不足；不能因此认为你的动作错误。有效覆盖不足、中途长缺失或执行手标签不符仍不能正常给分。只在明确选择后执行手动配对或镜像还原。
+- SignCoachUnity/Assets：Unity场景、C#脚本、六词本地视频、关键点和素材来源说明，保留全部.meta。
+- SignCoachUnity/Packages、ProjectSettings：Unity项目依赖和配置。
+- SignCoachUnity/data/reference：原有算法回归所用的录制样本，不表示标准手语。
+- SignCoachLite：Python识别、TCP、提取工具、测试与依赖清单。
 
-本次回归：Python21项；Unity原录制39、比较2342、可靠性262、教学105、新档位123断言和TCP回归通过；实际Windows Release切换档位、六词视频/练习/比较入口和退出验证通过，原JSONL哈希不变。未新增真人采集或教师语义评分验收。
+当前词汇：再见、谢谢、对不起、吃饭、帮助、喜欢。默认入门练习评分，保留精细对照；动作几何相似度不代表手语语义正确率。质量不足的参考仍会提示。
 
-当前词汇：再见、谢谢、对不起、吃饭、帮助、喜欢。源码在工作区SignCoachUnity与SignCoachLite。详细计算和证据见COMPARISON_GUIDE.md、COMPARISON_TEST_RESULTS.md、Tests及Screenshots；保留的旧章节为历史记录。
+## 开发运行
+
+Unity Hub打开SignCoachUnity，使用项目ProjectVersion.txt指定的Unity版本（本机为2022.3.62f3c1）。打开Assets/Scenes/SignCoachDebug.unity。
+Python使用3.12 64位，在SignCoachLite目录运行：
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py --download-model
+.\.venv\Scripts\python.exe main.py --tcp --no-display
+```
+
+模型首次运行由程序从官方源下载，源码不包含虚拟环境或模型。其他参数及Windows说明见SignCoachLite/README.md。更早文档中“本机已准备环境”的描述只指原开发机，克隆后仍需安装。
+
+Python测试：在SignCoachLite运行`.\.venv\Scripts\python.exe -m unittest discover -v`。Unity自动验证与Release构建入口为Assets/Editor/BuildAndVerify.cs的BuildAndVerify.Execute。ScoringProfileTests对外部原交付目录的三份真人录制进行可选联调；该目录未包含在仓库，外部联调会明确SKIP，受控算法测试照常执行。
+
+独立视觉服务打包：先安装requirements-build.txt并下载模型，再运行SignCoachLite/build_vision.ps1，生成SignCoachUnity/Build/Vision/SignCoachVision/。现有Unity启动器兼容此布局。打包方法见各项目README。
+
+## 仓库与运行包
+
+仓库保存源码，Releases保存完整Windows运行包，不跟踪虚拟环境、Unity缓存和Build产物。根目录data/reference保留原仓库已上传的历史练习；SignCoachUnity/data/reference保留算法回归样本。原始研究下载缓存未包含；运行和构建所需的本地片段与来源清单已保留在StreamingAssets/Teaching。
+Windows运行包的exe、SignCoachLite_Data、UnityPlayer.dll、MonoBleedingEdge和Vision必须保持完整，不能为了减小体积随意删除。
+保留素材来源和第三方授权说明，不代表取得额外授权。
+
+## 实际验证记录
+
+评分档位实测、文件保护和六词入口检查见[验证材料](docs/verification/)。这些是此前实际Windows Release的测试结果，本次仅整理和发布文件，没有新一轮真人采集。
+
+![实际运行截图](docs/verification/take005_introductory.png)

@@ -1,0 +1,28 @@
+# Unity generated files and builds
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Ll]ogs/
+**/[Oo]bj/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild*/
+**/MemoryCaptures/
+*.csproj
+*.sln
+# Python dependencies, model downloads and output
+**/.venv/
+**/__pycache__/
+*.pyc
+SignCoachLite/models/*.task
+SignCoachLite/models/*.download
+SignCoachLite/output/*
+!SignCoachLite/output/.gitkeep
+# Distribution packages belong in GitHub Releases
+/Windows/
+/Vision/
+/MonoBleedingEdge/
+/SignCoachLite_Data/
+/UnityPlayer.dll
+/*.exe
+*.zip
+*.7z
+.env

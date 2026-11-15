@@ -1,0 +1,13 @@
+{
+  "release_build": true,
+  "take": "goodbye/take_005",
+  "exact": 52.11842107445877,
+  "introductory": 75.83662277144391,
+  "normalized_distance": 0.47881578925541207,
+  "same_path_and_raw_distance": true,
+  "same_quality_gate": true,
+  "source_warning_retained": true,
+  "new_live_camera_test": false,
+  "exit_code": 0,
+  "all_original_jsonl_unchanged": true
+}

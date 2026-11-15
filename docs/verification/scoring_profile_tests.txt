@@ -1,0 +1,123 @@
+default explicitly introductory
+configured tolerance gives 85 introductory points
+exact tolerance retains original 50 points
+monotonic bounded loss 0
+monotonic bounded loss 1
+monotonic bounded loss 2
+monotonic bounded loss 3
+monotonic bounded loss 4
+monotonic bounded loss 5
+monotonic bounded loss 6
+monotonic bounded loss 7
+monotonic bounded loss 8
+monotonic bounded loss 9
+monotonic bounded loss 10
+monotonic bounded loss 11
+monotonic bounded loss 12
+monotonic bounded loss 13
+monotonic bounded loss 14
+monotonic bounded loss 15
+monotonic bounded loss 16
+monotonic bounded loss 17
+monotonic bounded loss 18
+monotonic bounded loss 19
+monotonic bounded loss 20
+monotonic bounded loss 21
+monotonic bounded loss 22
+monotonic bounded loss 23
+monotonic bounded loss 24
+monotonic bounded loss 25
+monotonic bounded loss 26
+monotonic bounded loss 27
+monotonic bounded loss 28
+monotonic bounded loss 29
+monotonic bounded loss 30
+monotonic bounded loss 31
+monotonic bounded loss 32
+monotonic bounded loss 33
+monotonic bounded loss 34
+monotonic bounded loss 35
+monotonic bounded loss 36
+monotonic bounded loss 37
+monotonic bounded loss 38
+monotonic bounded loss 39
+monotonic bounded loss 40
+monotonic bounded loss 41
+monotonic bounded loss 42
+monotonic bounded loss 43
+monotonic bounded loss 44
+monotonic bounded loss 45
+monotonic bounded loss 46
+monotonic bounded loss 47
+monotonic bounded loss 48
+monotonic bounded loss 49
+monotonic bounded loss 50
+monotonic bounded loss 51
+monotonic bounded loss 52
+monotonic bounded loss 53
+monotonic bounded loss 54
+monotonic bounded loss 55
+monotonic bounded loss 56
+monotonic bounded loss 57
+monotonic bounded loss 58
+monotonic bounded loss 59
+monotonic bounded loss 60
+monotonic bounded loss 61
+monotonic bounded loss 62
+monotonic bounded loss 63
+monotonic bounded loss 64
+monotonic bounded loss 65
+monotonic bounded loss 66
+monotonic bounded loss 67
+monotonic bounded loss 68
+monotonic bounded loss 69
+monotonic bounded loss 70
+monotonic bounded loss 71
+monotonic bounded loss 72
+monotonic bounded loss 73
+monotonic bounded loss 74
+monotonic bounded loss 75
+monotonic bounded loss 76
+monotonic bounded loss 77
+monotonic bounded loss 78
+monotonic bounded loss 79
+monotonic bounded loss 80
+monotonic bounded loss 81
+monotonic bounded loss 82
+monotonic bounded loss 83
+monotonic bounded loss 84
+monotonic bounded loss 85
+monotonic bounded loss 86
+monotonic bounded loss 87
+monotonic bounded loss 88
+monotonic bounded loss 89
+monotonic bounded loss 90
+monotonic bounded loss 91
+monotonic bounded loss 92
+monotonic bounded loss 93
+monotonic bounded loss 94
+monotonic bounded loss 95
+monotonic bounded loss 96
+monotonic bounded loss 97
+monotonic bounded loss 98
+monotonic bounded loss 99
+monotonic bounded loss 100
+extreme difference still receives under six points
+intro identity is 100
+profiles retain identical DTW distance and path amplitude=0.002
+intro tolerates modest finger offsets amplitude=0.002
+reported scoring loss explains total
+profiles retain identical DTW distance and path amplitude=0.02
+intro tolerates modest finger offsets amplitude=0.02
+reported scoring loss explains total
+larger finger displacement reduces introductory score
+stationary hand cannot pass moving gesture in intro
+long dropout still blocks intro score
+intro never silently swaps handedness
+two-hand total includes relative placement and motion
+take_003 real-file alignment invariant
+take_003 quality gate invariant
+take_004 real-file alignment invariant
+take_004 quality gate invariant
+take_005 real-file alignment invariant
+take_005 quality gate invariant

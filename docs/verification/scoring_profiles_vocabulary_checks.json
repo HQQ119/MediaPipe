@@ -1,0 +1,40 @@
+{
+  "default_word": "goodbye",
+  "goodbye": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/goodbye/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "thanks": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/thanks/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "sorry": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/sorry/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "help": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/help/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "like": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/like/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "eat": {
+    "video_url": "file:///D:/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE/unity/%E4%BA%A4%E4%BB%98%E6%9D%90%E6%96%99/SignCoachLite_Unity%E5%86%85%E7%BD%AE%E6%91%84%E5%83%8F%E5%A4%B4%E7%89%88_20261115/Windows/SignCoachLite_Data/StreamingAssets/Teaching/data/reference/pending_review/eat/candidate_preview.mp4",
+    "decoded_frame": 1,
+    "practice_and_comparison_navigation": true
+  },
+  "hello": {
+    "selection_rejected": true
+  },
+  "drink": {
+    "selection_rejected": true
+  },
+  "exit_code": 0
+}

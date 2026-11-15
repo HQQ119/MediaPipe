@@ -1,0 +1,6 @@
+* text=auto
+*.jsonl -text
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.dll binary

@@ -1,0 +1,13 @@
+{
+  "frame_count": 17,
+  "hand_frame_count": 14,
+  "double_hand_frames": 5,
+  "duration_ms": 3200,
+  "fps": 5.0,
+  "width": 256,
+  "height": 256,
+  "mirror": "unknown",
+  "coordinate_system": "source_image_normalized_xy; z=MediaPipe relative depth; no display mirror",
+  "handedness_convention": "MediaPipe model output unchanged; source mirror=unknown",
+  "verification_status": "pending_review"
+}
